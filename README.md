@@ -1,2 +1,5 @@
 # Testovoe-FastApi-SurfIt
-## Cтека технологий:
+## Cтек технологий:
+### ЯП python
+### Фреймворк FastAPI
+SQLAlchemy версии 1.4.51
