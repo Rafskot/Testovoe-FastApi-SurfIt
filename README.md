@@ -10,10 +10,10 @@ PostgreSQL версии 16.1
 _pip install fastapi[all] sqlalchemy databases[postgresql]_
 ### Создание базы данных PostgreSQL
 1. Установите PostgreSQL  
-2. Создайте базу данных и пользователя, Используйте утилиту psql
-_CREATE DATABASE mybase;_
-_CREATE USER tester WITH PASSWORD '12345';_
-_ALTER ROLE tester SET client_encoding TO 'utf8';_
-_ALTER ROLE tester SET default_transaction_isolation TO 'read committed';_
-_ALTER ROLE tester SET timezone TO 'UTC';_
-_GRANT ALL PRIVILEGES ON DATABASE mybase TO tester;_
+2. Создайте базу данных и пользователя, Используйте утилиту psql  
+_CREATE DATABASE mybase;_  
+_CREATE USER tester WITH PASSWORD '12345';_  
+_ALTER ROLE tester SET client_encoding TO 'utf8';_  
+_ALTER ROLE tester SET default_transaction_isolation TO 'read committed';_  
+_ALTER ROLE tester SET timezone TO 'UTC';_  
+_GRANT ALL PRIVILEGES ON DATABASE mybase TO tester;_  
