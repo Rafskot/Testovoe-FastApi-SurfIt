@@ -22,3 +22,5 @@ _GRANT ALL PRIVILEGES ON DATABASE mybase TO tester;_
 _psql -U postgres -d mybase_
 2. Запустите FastAPI:  
 _uvicorn your_app_name:app --reload_
+3. Проверьте API:  
+прейдети по ссылке: _http://127.0.0.1:8000/docs_
